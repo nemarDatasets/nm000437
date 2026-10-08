@@ -1,0 +1,28 @@
+{
+  "TaskName": "listen",
+  "TaskDescription": "Passive listening to spoken Mandarin Chinese words (44 categories), Mandarin Chinese digits (0-9) and English words (20 categories), 2 s per word (Zhang et al. 2025).",
+  "InstitutionName": "n/a",
+  "Manufacturer": "Nihon Kohden",
+  "ManufacturersModelName": "EEG-1200 (acquisition at 1000 Hz; this file is a 200 Hz derivative)",
+  "SamplingFrequency": 200.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "LFS feature extraction (authors, Zhang et al. 2025)": {
+      "Description": "low-frequency signal: low-pass 100 Hz (anti-aliasing), downsampled to 200 Hz, normalised within each 2 s window"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "bipolar, applied after removing contacts with epileptiform activity (paper); the contact pairs are not given in the release",
+  "SEEGChannelCount": 148,
+  "ECOGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "epoched",
+  "EpochLength": 2.0,
+  "RecordingDuration": 5136.0,
+  "ElectrodeManufacturer": "Sinovation (Beijing) Medical Technology",
+  "ElectrodeManufacturersModelName": "SDE-10/12/16",
+  "iEEGElectrodeInfo": "platinum-iridium SEEG shafts, 0.8 mm diameter, 3.5 mm inter-contact distance, 10-16 contacts (paper)",
+  "Description": "Authors' per-trial feature arrays (LFS), one 2 s epoch per trial in release order."
+}

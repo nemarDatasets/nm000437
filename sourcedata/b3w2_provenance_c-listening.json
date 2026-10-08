@@ -1,0 +1,2468 @@
+{
+  "runs": [
+    {
+      "sub": "01",
+      "band": "bbs",
+      "n_trials": 1493,
+      "n_channels": 202,
+      "source_dir": "sub1_bipolar_listen_seeg_2000_bbs"
+    },
+    {
+      "sub": "01",
+      "band": "hga",
+      "n_trials": 1493,
+      "n_channels": 101,
+      "source_dir": "sub1_bipolar_listen_seeg_2000_hga"
+    },
+    {
+      "sub": "01",
+      "band": "lfs",
+      "n_trials": 1493,
+      "n_channels": 101,
+      "source_dir": "sub1_bipolar_listen_seeg_2000_lfs"
+    },
+    {
+      "sub": "02",
+      "band": "bbs",
+      "n_trials": 1576,
+      "n_channels": 290,
+      "source_dir": "sub2_bipolar_listen_seeg_2000_bbs"
+    },
+    {
+      "sub": "02",
+      "band": "hga",
+      "n_trials": 1576,
+      "n_channels": 145,
+      "source_dir": "sub2_bipolar_listen_seeg_2000_hga"
+    },
+    {
+      "sub": "02",
+      "band": "lfs",
+      "n_trials": 1576,
+      "n_channels": 145,
+      "source_dir": "sub2_bipolar_listen_seeg_2000_lfs"
+    },
+    {
+      "sub": "03",
+      "band": "bbs",
+      "n_trials": 2568,
+      "n_channels": 296,
+      "source_dir": "sub3_bipolar_listen_seeg_2000_bbs"
+    },
+    {
+      "sub": "03",
+      "band": "hga",
+      "n_trials": 2568,
+      "n_channels": 148,
+      "source_dir": "sub3_bipolar_listen_seeg_2000_hga"
+    },
+    {
+      "sub": "03",
+      "band": "lfs",
+      "n_trials": 2568,
+      "n_channels": 148,
+      "source_dir": "sub3_bipolar_listen_seeg_2000_lfs"
+    },
+    {
+      "sub": "04",
+      "band": "bbs",
+      "n_trials": 2920,
+      "n_channels": 218,
+      "source_dir": "sub4_bipolar_listen_seeg_2000_bbs"
+    },
+    {
+      "sub": "04",
+      "band": "hga",
+      "n_trials": 2920,
+      "n_channels": 109,
+      "source_dir": "sub4_bipolar_listen_seeg_2000_hga"
+    },
+    {
+      "sub": "04",
+      "band": "lfs",
+      "n_trials": 2920,
+      "n_channels": 109,
+      "source_dir": "sub4_bipolar_listen_seeg_2000_lfs"
+    },
+    {
+      "sub": "05",
+      "band": "bbs",
+      "n_trials": 1674,
+      "n_channels": 146,
+      "source_dir": "sub5_bipolar_listen_seeg_2000_bbs"
+    },
+    {
+      "sub": "05",
+      "band": "hga",
+      "n_trials": 1674,
+      "n_channels": 73,
+      "source_dir": "sub5_bipolar_listen_seeg_2000_hga"
+    },
+    {
+      "sub": "05",
+      "band": "lfs",
+      "n_trials": 1674,
+      "n_channels": 73,
+      "source_dir": "sub5_bipolar_listen_seeg_2000_lfs"
+    }
+  ],
+  "bbs_equals_hga_lfs_concat": {
+    "01": true,
+    "02": true,
+    "03": true,
+    "04": true,
+    "05": true
+  },
+  "stimuli": [
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/0_DIGIT.wav",
+      "bytes": 18334,
+      "sha256": "24c1361390276891bbbf657c23f7cce6d17f02e9c971df3222aac96521b19091"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/1_DIGIT.wav",
+      "bytes": 14454,
+      "sha256": "91ff022f00e1e03edda2412b9fd55cb78ede866aff8295647e81259c3180de51"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/2_DIGIT.wav",
+      "bytes": 14434,
+      "sha256": "4b5ed6ea34e7b93246ac1fa846c657bd3adfef71eb04d932b91bb3b1a24cc227"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/3_DIGIT.wav",
+      "bytes": 19922,
+      "sha256": "a7269ae9211c275c190658702bf983b5406f6511d11628554c2a5e51f78afcc0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/4_DIGIT.wav",
+      "bytes": 18130,
+      "sha256": "b67ce7db47e435c9f0a78bb21f822b76ee53f6a488aed336e3380fb77e5fdfa9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/5_DIGIT.wav",
+      "bytes": 18190,
+      "sha256": "32809af756a3f827b026840790c128df5a332049bf9a80a8bbaf95aa18dbc636"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/6_DIGIT.wav",
+      "bytes": 18270,
+      "sha256": "ec0b17d9b04bd6bebea888295a3f41f9ad61958057f9ad2638e3199c4ccb7ba4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/7_DIGIT.wav",
+      "bytes": 18518,
+      "sha256": "0fb1efd050464c46803f6fce5811da2194fb9a542237a5b77d14522100559e0f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/8_DIGIT.wav",
+      "bytes": 14356,
+      "sha256": "bca4d30a50b971425ac5e25366b719b216846937ad924dff27ef43fb3e75ffbd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/9_DIGIT.wav",
+      "bytes": 19178,
+      "sha256": "20bd7b0c44bc91ad687633a9b1ba26453d634a83b0567777a83682c5030c5750"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/China_CN.wav",
+      "bytes": 31182,
+      "sha256": "0248148801ce9cf955e8ac77630ad494a5c1afdc683f7832b81321c7ad587de3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/China_EN.wav",
+      "bytes": 18614,
+      "sha256": "4784f136a07aa0d2ab07fdd6374548e39eb8150512d8cb20ea8efbdda131bc48"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/Chinese_CN.wav",
+      "bytes": 30030,
+      "sha256": "97b182c4bd4be8ea3e5b153474923e94d61381f5f9398d7082debf87a3697e12"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/PE_CN.wav",
+      "bytes": 34638,
+      "sha256": "edb3b6f4f60ecca01c084dbdc4ae9e82ca19b2c3647ec0772c5ec2f6a93c4403"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/TV_CN.wav",
+      "bytes": 32334,
+      "sha256": "bfaaebdd7019b906189459cb8d614f2904083771fbcfe571898a0f3ac8f2ba7e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/afternoon_CN.wav",
+      "bytes": 32334,
+      "sha256": "18421d6069912d2f74bf20c68135f02cf86315988d73714cd789dfba49fc61d6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/afternoon_EN.wav",
+      "bytes": 25334,
+      "sha256": "666df872469867d45bf71282bc451afb643220637cd94c9195acaa4765691718"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/apple_CN.wav",
+      "bytes": 32334,
+      "sha256": "c87decb08e064c2b95c8809154c8ddfff7ef550666e96886136e0817c1c0b7ac"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/apple_EN.wav",
+      "bytes": 15928,
+      "sha256": "32585080d80d192771db73dcdcec558cbeceace45db31113544a02096bc9f51b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/art_CN.wav",
+      "bytes": 32334,
+      "sha256": "2ecee7916d6a02cbd74e43ab073dbe91e01abe53718d913fa8c7de5389e1d6dd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/book_CN.wav",
+      "bytes": 30030,
+      "sha256": "dd2affd5a01a1c117ac991865a97c070cc54d1c988063c3c32b93e8c5dda47c3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/book_EN.wav",
+      "bytes": 15574,
+      "sha256": "df50a37d8290c2dda22eb8255872f0dc76f1050e1c511b47a70f082f8c1b42a3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/bread_CN.wav",
+      "bytes": 30030,
+      "sha256": "de5cffffce166c4a7372f689d3cf825aa2fcae890af6f624b8ebd887d7492bb9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/car_CN.wav",
+      "bytes": 32334,
+      "sha256": "086f81a1392d261de264ad05cfaaead785fd611d83d7427d63adb27ffa401425"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/classmate_CN.wav",
+      "bytes": 32334,
+      "sha256": "ea0a2a434aae61fe016a6f111b058ea0f94225078a6ad331ac39732be505712d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/drink_CN.wav",
+      "bytes": 32334,
+      "sha256": "24e6857da5de577804028c8351f0106b29d4863123c985536827cd3475a9fa19"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/ear_CN.wav",
+      "bytes": 30030,
+      "sha256": "e8f8e9be1bbacca37ebc1dae4779745cf0a07417902fe3d4a772bd2b1786a724"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/ear_EN.wav",
+      "bytes": 15454,
+      "sha256": "ee41d51b5807978587cac4a18ea14a9a4702f7867e07ec413f758530e2dd8873"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/eat_CN.wav",
+      "bytes": 28878,
+      "sha256": "2390f982474f0754302a704621a921355f769723e87cfbdb9caf73982726ac5c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/evening_CN.wav",
+      "bytes": 28878,
+      "sha256": "bb94686464c0d6e54e27fecbaea96a34f5c9a0ea93828f9c922b257f17d301a1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/evening_EN.wav",
+      "bytes": 20228,
+      "sha256": "26f9ffb902897c09bedbc92eb1e7dc962ae549841600dec01b8167d458a29bd4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/father_CN.wav",
+      "bytes": 28878,
+      "sha256": "dd99158e2c43f4720f568719a04cdd67c2c3a150657e91d9e517d6f586b5dd60"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/fruit_CN.wav",
+      "bytes": 33486,
+      "sha256": "9490ff8d45e6166af6381185963a101d5d3e62d1354c9cbe3e93125330ae52c1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/morning_CN.wav",
+      "bytes": 31182,
+      "sha256": "cbec8f810b01c0d667971ef4ef89f8afba3280c25b3718dbe3b2190c2d84c38c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/morning_EN.wav",
+      "bytes": 18890,
+      "sha256": "d2621adc40adfafbcf2845e36c3d273ea0be092ab73c28fd4a6e91b45be9d941"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/mother_CN.wav",
+      "bytes": 27726,
+      "sha256": "799cda760888c01e5c5adbb6293ee956f07b537ad7e1aaa95dec648e05814073"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/mouth_CN.wav",
+      "bytes": 30030,
+      "sha256": "a867bc152b49c1c2ce62839f413415bc2bc7a4f80c578f76230fe9c36340c727"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/mouth_EN.wav",
+      "bytes": 21428,
+      "sha256": "3829eef60f94508e566463cb469090b8ba5277e41f3ea138f0ad8947e20fd0ec"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/music_CN.wav",
+      "bytes": 28878,
+      "sha256": "08e08727a42e41868c9ac9090da1a22697dd6681e27df85e652fa47564fe9d85"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/nose_CN.wav",
+      "bytes": 31182,
+      "sha256": "f71f0fed4e2f0e3e86fd384375ab1120b40101ac3d8fafb4fd01c7ce16d24b5a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/nose_EN.wav",
+      "bytes": 18096,
+      "sha256": "725882b0435be606d2d36f40a14995b5d686bf328065ea06d53cab6030e0f6dc"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/park_CN.wav",
+      "bytes": 32334,
+      "sha256": "4b2d80a43a24e3a283d6dcd0857ec9dc84da87a28b640759405009773de38e6f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/park_EN.wav",
+      "bytes": 15606,
+      "sha256": "ebb84d173e7b54a840dfb15ba2cc8ec7b717b7af9488cd42263388507c03aa3d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/phone_CN.wav",
+      "bytes": 32334,
+      "sha256": "6297c193e43c9e2c36842cc10ef57cebeb1080a3c86fc22f5bbf41999a3ab06b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/rice_CN.wav",
+      "bytes": 31182,
+      "sha256": "96ca97bd226db7381d5a6613b1309be185433fb91e1aea78c6beab2329d26bef"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/run_CN.wav",
+      "bytes": 31182,
+      "sha256": "7c91c34caaa82065e8c5aac7573abd16b958a750f553e61687051e6c01efe613"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/sleep_CN.wav",
+      "bytes": 31182,
+      "sha256": "2c7862b8497c81900eb7649fcedf10b187e80ea2861dc9c8a2eeae25c5c9d91e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/subway_CN.wav",
+      "bytes": 32334,
+      "sha256": "4d119c64c87e675fe08c4bb4b1eb8eeaf8ff3015959d4299ac60942fbb8a776e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/teacher_CN.wav",
+      "bytes": 31182,
+      "sha256": "78b05c8a5d778ee75ce724b49cd0362218aeaf7bb2cabb109bd733c9ac05732e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub1_listen_audio/vegetable_CN.wav",
+      "bytes": 31182,
+      "sha256": "df5ef54a835849d35abec00348e002ca4c703a1b66afea2af11d8234595be185"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/0_DIGIT.wav",
+      "bytes": 18334,
+      "sha256": "24c1361390276891bbbf657c23f7cce6d17f02e9c971df3222aac96521b19091"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/1_DIGIT.wav",
+      "bytes": 14454,
+      "sha256": "91ff022f00e1e03edda2412b9fd55cb78ede866aff8295647e81259c3180de51"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/2_DIGIT.wav",
+      "bytes": 14434,
+      "sha256": "4b5ed6ea34e7b93246ac1fa846c657bd3adfef71eb04d932b91bb3b1a24cc227"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/3_DIGIT.wav",
+      "bytes": 19922,
+      "sha256": "a7269ae9211c275c190658702bf983b5406f6511d11628554c2a5e51f78afcc0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/4_DIGIT.wav",
+      "bytes": 18130,
+      "sha256": "b67ce7db47e435c9f0a78bb21f822b76ee53f6a488aed336e3380fb77e5fdfa9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/5_DIGIT.wav",
+      "bytes": 18190,
+      "sha256": "32809af756a3f827b026840790c128df5a332049bf9a80a8bbaf95aa18dbc636"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/6_DIGIT.wav",
+      "bytes": 18270,
+      "sha256": "ec0b17d9b04bd6bebea888295a3f41f9ad61958057f9ad2638e3199c4ccb7ba4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/7_DIGIT.wav",
+      "bytes": 18518,
+      "sha256": "0fb1efd050464c46803f6fce5811da2194fb9a542237a5b77d14522100559e0f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/8_DIGIT.wav",
+      "bytes": 14356,
+      "sha256": "bca4d30a50b971425ac5e25366b719b216846937ad924dff27ef43fb3e75ffbd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/9_DIGIT.wav",
+      "bytes": 19178,
+      "sha256": "20bd7b0c44bc91ad687633a9b1ba26453d634a83b0567777a83682c5030c5750"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/China_CN.wav",
+      "bytes": 31182,
+      "sha256": "0248148801ce9cf955e8ac77630ad494a5c1afdc683f7832b81321c7ad587de3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/China_EN.wav",
+      "bytes": 18614,
+      "sha256": "4784f136a07aa0d2ab07fdd6374548e39eb8150512d8cb20ea8efbdda131bc48"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/Chinese_CN.wav",
+      "bytes": 30030,
+      "sha256": "97b182c4bd4be8ea3e5b153474923e94d61381f5f9398d7082debf87a3697e12"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/PE_CN.wav",
+      "bytes": 34638,
+      "sha256": "edb3b6f4f60ecca01c084dbdc4ae9e82ca19b2c3647ec0772c5ec2f6a93c4403"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/TV_CN.wav",
+      "bytes": 32334,
+      "sha256": "bfaaebdd7019b906189459cb8d614f2904083771fbcfe571898a0f3ac8f2ba7e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/afternoon_CN.wav",
+      "bytes": 32334,
+      "sha256": "18421d6069912d2f74bf20c68135f02cf86315988d73714cd789dfba49fc61d6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/afternoon_EN.wav",
+      "bytes": 25334,
+      "sha256": "666df872469867d45bf71282bc451afb643220637cd94c9195acaa4765691718"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/apple_CN.wav",
+      "bytes": 32334,
+      "sha256": "c87decb08e064c2b95c8809154c8ddfff7ef550666e96886136e0817c1c0b7ac"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/apple_EN.wav",
+      "bytes": 15928,
+      "sha256": "32585080d80d192771db73dcdcec558cbeceace45db31113544a02096bc9f51b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/art_CN.wav",
+      "bytes": 32334,
+      "sha256": "2ecee7916d6a02cbd74e43ab073dbe91e01abe53718d913fa8c7de5389e1d6dd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/book_CN.wav",
+      "bytes": 30030,
+      "sha256": "dd2affd5a01a1c117ac991865a97c070cc54d1c988063c3c32b93e8c5dda47c3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/book_EN.wav",
+      "bytes": 15574,
+      "sha256": "df50a37d8290c2dda22eb8255872f0dc76f1050e1c511b47a70f082f8c1b42a3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/bread_CN.wav",
+      "bytes": 30030,
+      "sha256": "de5cffffce166c4a7372f689d3cf825aa2fcae890af6f624b8ebd887d7492bb9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/car_CN.wav",
+      "bytes": 32334,
+      "sha256": "086f81a1392d261de264ad05cfaaead785fd611d83d7427d63adb27ffa401425"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/classmate_CN.wav",
+      "bytes": 32334,
+      "sha256": "ea0a2a434aae61fe016a6f111b058ea0f94225078a6ad331ac39732be505712d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/drink_CN.wav",
+      "bytes": 32334,
+      "sha256": "24e6857da5de577804028c8351f0106b29d4863123c985536827cd3475a9fa19"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/ear_CN.wav",
+      "bytes": 30030,
+      "sha256": "e8f8e9be1bbacca37ebc1dae4779745cf0a07417902fe3d4a772bd2b1786a724"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/ear_EN.wav",
+      "bytes": 15454,
+      "sha256": "ee41d51b5807978587cac4a18ea14a9a4702f7867e07ec413f758530e2dd8873"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/eat_CN.wav",
+      "bytes": 28878,
+      "sha256": "2390f982474f0754302a704621a921355f769723e87cfbdb9caf73982726ac5c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/evening_CN.wav",
+      "bytes": 28878,
+      "sha256": "bb94686464c0d6e54e27fecbaea96a34f5c9a0ea93828f9c922b257f17d301a1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/evening_EN.wav",
+      "bytes": 20228,
+      "sha256": "26f9ffb902897c09bedbc92eb1e7dc962ae549841600dec01b8167d458a29bd4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/father_CN.wav",
+      "bytes": 28878,
+      "sha256": "dd99158e2c43f4720f568719a04cdd67c2c3a150657e91d9e517d6f586b5dd60"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/fruit_CN.wav",
+      "bytes": 33486,
+      "sha256": "9490ff8d45e6166af6381185963a101d5d3e62d1354c9cbe3e93125330ae52c1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/morning_CN.wav",
+      "bytes": 31182,
+      "sha256": "cbec8f810b01c0d667971ef4ef89f8afba3280c25b3718dbe3b2190c2d84c38c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/morning_EN.wav",
+      "bytes": 18890,
+      "sha256": "d2621adc40adfafbcf2845e36c3d273ea0be092ab73c28fd4a6e91b45be9d941"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/mother_CN.wav",
+      "bytes": 27726,
+      "sha256": "799cda760888c01e5c5adbb6293ee956f07b537ad7e1aaa95dec648e05814073"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/mouth_CN.wav",
+      "bytes": 30030,
+      "sha256": "a867bc152b49c1c2ce62839f413415bc2bc7a4f80c578f76230fe9c36340c727"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/mouth_EN.wav",
+      "bytes": 21428,
+      "sha256": "3829eef60f94508e566463cb469090b8ba5277e41f3ea138f0ad8947e20fd0ec"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/music_CN.wav",
+      "bytes": 28878,
+      "sha256": "08e08727a42e41868c9ac9090da1a22697dd6681e27df85e652fa47564fe9d85"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/nose_CN.wav",
+      "bytes": 31182,
+      "sha256": "f71f0fed4e2f0e3e86fd384375ab1120b40101ac3d8fafb4fd01c7ce16d24b5a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/nose_EN.wav",
+      "bytes": 18096,
+      "sha256": "725882b0435be606d2d36f40a14995b5d686bf328065ea06d53cab6030e0f6dc"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/park_CN.wav",
+      "bytes": 32334,
+      "sha256": "4b2d80a43a24e3a283d6dcd0857ec9dc84da87a28b640759405009773de38e6f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/park_EN.wav",
+      "bytes": 15606,
+      "sha256": "ebb84d173e7b54a840dfb15ba2cc8ec7b717b7af9488cd42263388507c03aa3d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/phone_CN.wav",
+      "bytes": 32334,
+      "sha256": "6297c193e43c9e2c36842cc10ef57cebeb1080a3c86fc22f5bbf41999a3ab06b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/rice_CN.wav",
+      "bytes": 31182,
+      "sha256": "96ca97bd226db7381d5a6613b1309be185433fb91e1aea78c6beab2329d26bef"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/run_CN.wav",
+      "bytes": 31182,
+      "sha256": "7c91c34caaa82065e8c5aac7573abd16b958a750f553e61687051e6c01efe613"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/sleep_CN.wav",
+      "bytes": 31182,
+      "sha256": "2c7862b8497c81900eb7649fcedf10b187e80ea2861dc9c8a2eeae25c5c9d91e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/subway_CN.wav",
+      "bytes": 32334,
+      "sha256": "4d119c64c87e675fe08c4bb4b1eb8eeaf8ff3015959d4299ac60942fbb8a776e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/teacher_CN.wav",
+      "bytes": 31182,
+      "sha256": "78b05c8a5d778ee75ce724b49cd0362218aeaf7bb2cabb109bd733c9ac05732e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub2_listen_audio/vegetable_CN.wav",
+      "bytes": 31182,
+      "sha256": "df5ef54a835849d35abec00348e002ca4c703a1b66afea2af11d8234595be185"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/China_CN.wav",
+      "bytes": 96044,
+      "sha256": "e552c385cf7f44dfa96473405df141a35ed41b534393f4bf4f9d799be0a799e0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/China_EN.wav",
+      "bytes": 96044,
+      "sha256": "9dd0a9f429f9ff98fea4c5daca16cb05075c8f05d0da9c7fe3944b0dabff76cf"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/March_CN.wav",
+      "bytes": 96044,
+      "sha256": "4cf47fd096fb78196abdf6c5cd7ed97396f169401be79c5c71e58a007195f76a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/March_EN.wav",
+      "bytes": 96044,
+      "sha256": "e915df777f86333a4233023e4bdf3df2a1614a63d5032001e4e621730d7daa5b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/afternoon_CN.wav",
+      "bytes": 96044,
+      "sha256": "94ea0f5bc34d2a5a114744144e69fceceb11a32fc1ff2e826bbf1dd8fc3baf7b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/afternoon_EN.wav",
+      "bytes": 96044,
+      "sha256": "145062d26c110aeefcd6f5aa4ae7b1d0131c7bb9baedc58d26b451367c4cf634"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/apple_CN.wav",
+      "bytes": 96044,
+      "sha256": "ce4cdccec7cc084c224027979bd5155022d67e760ec7fab86bcd4ad50495c586"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/apple_EN.wav",
+      "bytes": 96044,
+      "sha256": "24f39136e3764881a9a282f7243e8466170a30db50a009bef1a460ce3f1f3e61"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/book_CN.wav",
+      "bytes": 96044,
+      "sha256": "7c08f0c4b8dd6a019056a48d67700a0be7260860bda40fd41fe24108559c9f73"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/book_EN.wav",
+      "bytes": 96044,
+      "sha256": "9cd0bf7ff9743bc67b30d96db860d6a8c327d4972a5ed2e30931eefc0d0acd10"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/campus_CN.wav",
+      "bytes": 96044,
+      "sha256": "1b40860fdbad025e611b2121ee47a0f28efd09e750048a8d7a3412ff71d06cd1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/ear_CN.wav",
+      "bytes": 96044,
+      "sha256": "ef970e7f45be2693ea8953338419f7d27b3169fb242a19a508161d6f32f1b6c3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/ear_EN.wav",
+      "bytes": 96044,
+      "sha256": "d875b912cd77732a04da6be50b677d6f2af33fb1b1d727b5f18fc28ed6b5bf6c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/evening_CN.wav",
+      "bytes": 96044,
+      "sha256": "ebd303857012b4c51c1a6f17b6220255c0e1ba8daded0860db5e89ecdf0681dc"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/evening_EN.wav",
+      "bytes": 96044,
+      "sha256": "333a37ed2e3c8f3953bd2c53add261d1b9626bc6ab8f2bd5152720766a57ce06"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/feature_CN.wav",
+      "bytes": 96044,
+      "sha256": "c8f209a0a2ad4305d30e2a94fb142ce9afd730159e27ae8b57e7f50332a2d756"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/feature_EN.wav",
+      "bytes": 96044,
+      "sha256": "6b617f67c0fdddef8dccf956cb5ad91327156c6eed0ddc72ae02621c46204d10"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/highway_CN.wav",
+      "bytes": 96044,
+      "sha256": "5e539bdb116c2742479e64a85a369243a4100f129de5a878c136a8b55acdb3b2"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/middle_CN.wav",
+      "bytes": 96044,
+      "sha256": "4bc48c9366c66972aa1ff96ed2201e6fc86e6606909e9788346ffb9258c9ed7f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/moonlight_CN.wav",
+      "bytes": 96044,
+      "sha256": "09a6086556fdff0ca7e23b3a7c251f04633bef2af64b19f6db36f00bee65637d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/morning_CN.wav",
+      "bytes": 96044,
+      "sha256": "8c73ef0047445bc81dddba4ee15c7f46121d75201e7b4326587c4efebb10bec7"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/morning_EN.wav",
+      "bytes": 96044,
+      "sha256": "7bf2f409a540a048bdebfc784fe8c9462df25d502c45466755500fc76bca52f0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/mouth_CN.wav",
+      "bytes": 96044,
+      "sha256": "76d9aebaf5705dcf212f50ba06db55e7bca7ebb7c22bca6b519f084eb002a569"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/mouth_EN.wav",
+      "bytes": 96044,
+      "sha256": "4f47c6dd25010af851eb447253ad7b177bddb196bd7826102d4eadd7669b232b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/nose_CN.wav",
+      "bytes": 96044,
+      "sha256": "b99d2d88bdc688bf22f0a9fa3f69f2c677476b58e4a03c37135145e7fff8f82f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/nose_EN.wav",
+      "bytes": 96044,
+      "sha256": "4d145e544dfad9d7b2780cbe83c8802b67b721e5392470bdd5969fb4fe83afbb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/order_CN.wav",
+      "bytes": 96044,
+      "sha256": "745f0d5e6c15843e7035c781cf61bb207e99c6db79226c09ec5bd89ca8de6dd8"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/order_EN.wav",
+      "bytes": 96044,
+      "sha256": "301533cd6343893fc813dc93a6bb55acd871af1a069250bdd4e8418c50cc7201"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/park_CN.wav",
+      "bytes": 96044,
+      "sha256": "25f37d733766ba6298fa247e94bb56bc4974770e0180ef173165fdae88cc6d39"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/park_EN.wav",
+      "bytes": 96044,
+      "sha256": "ea783b57af9b2d3c8e5b492e09641d61bcefe02c9ab77cf403eb82ce9d83e565"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/road_CN.wav",
+      "bytes": 96044,
+      "sha256": "5ffb5eb553e98675afb4e325d48dd9b8b4833282df839da8f7631578eaa30a26"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/road_EN.wav",
+      "bytes": 96044,
+      "sha256": "50d9b0c72d9c5b490f0ad97afb30bc7ec665eb7706307709f3bab28b56ba6660"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/school_CN.wav",
+      "bytes": 96044,
+      "sha256": "cdaa51391391c6ac70168da92f8fa1626d79667f1314bf4d7d1e5df2a6f5bfd0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/school_EN.wav",
+      "bytes": 96044,
+      "sha256": "952ed6d7da1b308a029e03b26efc4b764a038b4d1a31d8edc5a1ad036341a185"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/teacher_CN.wav",
+      "bytes": 96044,
+      "sha256": "fe26663e24b6aba50e0dc05bcc85d46503b8035fb04e5d42cbb58af0248f164d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/teacher_EN.wav",
+      "bytes": 96044,
+      "sha256": "d0e25c160d23bc1a449201f881953b6362b66920bab9940b275001d7e61d4ea3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/time_CN.wav",
+      "bytes": 96044,
+      "sha256": "468fb8b0d1797c3cdfb968dba500d65ca50cd4617673fb40d63da476ec79b4da"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/time_EN.wav",
+      "bytes": 96044,
+      "sha256": "c19520f74c8f52237ba175427dea54e88536bdc88ce540d39752eefed1d5999f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/today_CN.wav",
+      "bytes": 96044,
+      "sha256": "b7055d203d9a07d73dd18f2734344528505a8e865adac6627afd3ede6ec1265c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/today_EN.wav",
+      "bytes": 96044,
+      "sha256": "2e9061bb9adb180afaf5a9bc628ba9f462a169305d67363b15af90cea35bceeb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/tonight_CN.wav",
+      "bytes": 96044,
+      "sha256": "ef94f1407b85e109488e84b8fb92a1e8cef60ad917b774b8ed3e4a30bfcf500b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/window_CN.wav",
+      "bytes": 96044,
+      "sha256": "1d4afd488781ab8bb3a665cca4967ee9fd706dfd28961c5a4f84a256bfce23d6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/window_EN.wav",
+      "bytes": 96044,
+      "sha256": "b49d19520a78c16cb0c0a63843de4305751c0103eacdb388023feba072450be4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/wish_CN.wav",
+      "bytes": 96044,
+      "sha256": "a58cb7d4be45e240086df3a06cc800fdc22e66aa61b8cf2af7217b4d1ca09c77"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub3_listen_audio/wish_EN.wav",
+      "bytes": 96044,
+      "sha256": "c99d12ca4a07a096c87d0d12f5eec4d429aa90490c44ef8470186035c718cbf0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/China_CN.wav",
+      "bytes": 96044,
+      "sha256": "e552c385cf7f44dfa96473405df141a35ed41b534393f4bf4f9d799be0a799e0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/China_EN.wav",
+      "bytes": 96044,
+      "sha256": "9dd0a9f429f9ff98fea4c5daca16cb05075c8f05d0da9c7fe3944b0dabff76cf"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/March_CN.wav",
+      "bytes": 96044,
+      "sha256": "4cf47fd096fb78196abdf6c5cd7ed97396f169401be79c5c71e58a007195f76a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/March_EN.wav",
+      "bytes": 96044,
+      "sha256": "e915df777f86333a4233023e4bdf3df2a1614a63d5032001e4e621730d7daa5b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/afternoon_CN.wav",
+      "bytes": 96044,
+      "sha256": "94ea0f5bc34d2a5a114744144e69fceceb11a32fc1ff2e826bbf1dd8fc3baf7b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/afternoon_EN.wav",
+      "bytes": 96044,
+      "sha256": "145062d26c110aeefcd6f5aa4ae7b1d0131c7bb9baedc58d26b451367c4cf634"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/apple_CN.wav",
+      "bytes": 96044,
+      "sha256": "ce4cdccec7cc084c224027979bd5155022d67e760ec7fab86bcd4ad50495c586"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/apple_EN.wav",
+      "bytes": 96044,
+      "sha256": "24f39136e3764881a9a282f7243e8466170a30db50a009bef1a460ce3f1f3e61"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/book_CN.wav",
+      "bytes": 96044,
+      "sha256": "7c08f0c4b8dd6a019056a48d67700a0be7260860bda40fd41fe24108559c9f73"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/book_EN.wav",
+      "bytes": 96044,
+      "sha256": "9cd0bf7ff9743bc67b30d96db860d6a8c327d4972a5ed2e30931eefc0d0acd10"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/campus_CN.wav",
+      "bytes": 96044,
+      "sha256": "1b40860fdbad025e611b2121ee47a0f28efd09e750048a8d7a3412ff71d06cd1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/ear_CN.wav",
+      "bytes": 96044,
+      "sha256": "ef970e7f45be2693ea8953338419f7d27b3169fb242a19a508161d6f32f1b6c3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/ear_EN.wav",
+      "bytes": 96044,
+      "sha256": "d875b912cd77732a04da6be50b677d6f2af33fb1b1d727b5f18fc28ed6b5bf6c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/evening_CN.wav",
+      "bytes": 96044,
+      "sha256": "ebd303857012b4c51c1a6f17b6220255c0e1ba8daded0860db5e89ecdf0681dc"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/evening_EN.wav",
+      "bytes": 96044,
+      "sha256": "333a37ed2e3c8f3953bd2c53add261d1b9626bc6ab8f2bd5152720766a57ce06"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/feature_CN.wav",
+      "bytes": 96044,
+      "sha256": "c8f209a0a2ad4305d30e2a94fb142ce9afd730159e27ae8b57e7f50332a2d756"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/feature_EN.wav",
+      "bytes": 96044,
+      "sha256": "6b617f67c0fdddef8dccf956cb5ad91327156c6eed0ddc72ae02621c46204d10"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/highway_CN.wav",
+      "bytes": 96044,
+      "sha256": "5e539bdb116c2742479e64a85a369243a4100f129de5a878c136a8b55acdb3b2"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/middle_CN.wav",
+      "bytes": 96044,
+      "sha256": "4bc48c9366c66972aa1ff96ed2201e6fc86e6606909e9788346ffb9258c9ed7f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/moonlight_CN.wav",
+      "bytes": 96044,
+      "sha256": "09a6086556fdff0ca7e23b3a7c251f04633bef2af64b19f6db36f00bee65637d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/morning_CN.wav",
+      "bytes": 96044,
+      "sha256": "8c73ef0047445bc81dddba4ee15c7f46121d75201e7b4326587c4efebb10bec7"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/morning_EN.wav",
+      "bytes": 96044,
+      "sha256": "7bf2f409a540a048bdebfc784fe8c9462df25d502c45466755500fc76bca52f0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/mouth_CN.wav",
+      "bytes": 96044,
+      "sha256": "76d9aebaf5705dcf212f50ba06db55e7bca7ebb7c22bca6b519f084eb002a569"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/mouth_EN.wav",
+      "bytes": 96044,
+      "sha256": "4f47c6dd25010af851eb447253ad7b177bddb196bd7826102d4eadd7669b232b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/nose_CN.wav",
+      "bytes": 96044,
+      "sha256": "b99d2d88bdc688bf22f0a9fa3f69f2c677476b58e4a03c37135145e7fff8f82f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/nose_EN.wav",
+      "bytes": 96044,
+      "sha256": "4d145e544dfad9d7b2780cbe83c8802b67b721e5392470bdd5969fb4fe83afbb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/order_CN.wav",
+      "bytes": 96044,
+      "sha256": "745f0d5e6c15843e7035c781cf61bb207e99c6db79226c09ec5bd89ca8de6dd8"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/order_EN.wav",
+      "bytes": 96044,
+      "sha256": "301533cd6343893fc813dc93a6bb55acd871af1a069250bdd4e8418c50cc7201"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/park_CN.wav",
+      "bytes": 96044,
+      "sha256": "25f37d733766ba6298fa247e94bb56bc4974770e0180ef173165fdae88cc6d39"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/park_EN.wav",
+      "bytes": 96044,
+      "sha256": "ea783b57af9b2d3c8e5b492e09641d61bcefe02c9ab77cf403eb82ce9d83e565"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/road_CN.wav",
+      "bytes": 96044,
+      "sha256": "5ffb5eb553e98675afb4e325d48dd9b8b4833282df839da8f7631578eaa30a26"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/road_EN.wav",
+      "bytes": 96044,
+      "sha256": "50d9b0c72d9c5b490f0ad97afb30bc7ec665eb7706307709f3bab28b56ba6660"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/school_CN.wav",
+      "bytes": 96044,
+      "sha256": "cdaa51391391c6ac70168da92f8fa1626d79667f1314bf4d7d1e5df2a6f5bfd0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/school_EN.wav",
+      "bytes": 96044,
+      "sha256": "952ed6d7da1b308a029e03b26efc4b764a038b4d1a31d8edc5a1ad036341a185"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/teacher_CN.wav",
+      "bytes": 96044,
+      "sha256": "fe26663e24b6aba50e0dc05bcc85d46503b8035fb04e5d42cbb58af0248f164d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/teacher_EN.wav",
+      "bytes": 96044,
+      "sha256": "d0e25c160d23bc1a449201f881953b6362b66920bab9940b275001d7e61d4ea3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/time_CN.wav",
+      "bytes": 96044,
+      "sha256": "468fb8b0d1797c3cdfb968dba500d65ca50cd4617673fb40d63da476ec79b4da"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/time_EN.wav",
+      "bytes": 96044,
+      "sha256": "c19520f74c8f52237ba175427dea54e88536bdc88ce540d39752eefed1d5999f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/today_CN.wav",
+      "bytes": 96044,
+      "sha256": "b7055d203d9a07d73dd18f2734344528505a8e865adac6627afd3ede6ec1265c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/today_EN.wav",
+      "bytes": 96044,
+      "sha256": "2e9061bb9adb180afaf5a9bc628ba9f462a169305d67363b15af90cea35bceeb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/tonight_CN.wav",
+      "bytes": 96044,
+      "sha256": "ef94f1407b85e109488e84b8fb92a1e8cef60ad917b774b8ed3e4a30bfcf500b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/window_CN.wav",
+      "bytes": 96044,
+      "sha256": "1d4afd488781ab8bb3a665cca4967ee9fd706dfd28961c5a4f84a256bfce23d6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/window_EN.wav",
+      "bytes": 96044,
+      "sha256": "b49d19520a78c16cb0c0a63843de4305751c0103eacdb388023feba072450be4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/wish_CN.wav",
+      "bytes": 96044,
+      "sha256": "a58cb7d4be45e240086df3a06cc800fdc22e66aa61b8cf2af7217b4d1ca09c77"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub4_listen_audio/wish_EN.wav",
+      "bytes": 96044,
+      "sha256": "c99d12ca4a07a096c87d0d12f5eec4d429aa90490c44ef8470186035c718cbf0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/China_CN.wav",
+      "bytes": 96044,
+      "sha256": "e552c385cf7f44dfa96473405df141a35ed41b534393f4bf4f9d799be0a799e0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/China_EN.wav",
+      "bytes": 96044,
+      "sha256": "9dd0a9f429f9ff98fea4c5daca16cb05075c8f05d0da9c7fe3944b0dabff76cf"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/March_CN.wav",
+      "bytes": 96044,
+      "sha256": "4cf47fd096fb78196abdf6c5cd7ed97396f169401be79c5c71e58a007195f76a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/March_EN.wav",
+      "bytes": 96044,
+      "sha256": "e915df777f86333a4233023e4bdf3df2a1614a63d5032001e4e621730d7daa5b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/afternoon_CN.wav",
+      "bytes": 96044,
+      "sha256": "94ea0f5bc34d2a5a114744144e69fceceb11a32fc1ff2e826bbf1dd8fc3baf7b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/afternoon_EN.wav",
+      "bytes": 96044,
+      "sha256": "145062d26c110aeefcd6f5aa4ae7b1d0131c7bb9baedc58d26b451367c4cf634"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/apple_CN.wav",
+      "bytes": 96044,
+      "sha256": "ce4cdccec7cc084c224027979bd5155022d67e760ec7fab86bcd4ad50495c586"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/apple_EN.wav",
+      "bytes": 96044,
+      "sha256": "24f39136e3764881a9a282f7243e8466170a30db50a009bef1a460ce3f1f3e61"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/book_CN.wav",
+      "bytes": 96044,
+      "sha256": "7c08f0c4b8dd6a019056a48d67700a0be7260860bda40fd41fe24108559c9f73"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/book_EN.wav",
+      "bytes": 96044,
+      "sha256": "9cd0bf7ff9743bc67b30d96db860d6a8c327d4972a5ed2e30931eefc0d0acd10"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/campus_CN.wav",
+      "bytes": 96044,
+      "sha256": "1b40860fdbad025e611b2121ee47a0f28efd09e750048a8d7a3412ff71d06cd1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/ear_CN.wav",
+      "bytes": 96044,
+      "sha256": "ef970e7f45be2693ea8953338419f7d27b3169fb242a19a508161d6f32f1b6c3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/ear_EN.wav",
+      "bytes": 96044,
+      "sha256": "d875b912cd77732a04da6be50b677d6f2af33fb1b1d727b5f18fc28ed6b5bf6c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/evening_CN.wav",
+      "bytes": 96044,
+      "sha256": "ebd303857012b4c51c1a6f17b6220255c0e1ba8daded0860db5e89ecdf0681dc"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/evening_EN.wav",
+      "bytes": 96044,
+      "sha256": "333a37ed2e3c8f3953bd2c53add261d1b9626bc6ab8f2bd5152720766a57ce06"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/feature_CN.wav",
+      "bytes": 96044,
+      "sha256": "c8f209a0a2ad4305d30e2a94fb142ce9afd730159e27ae8b57e7f50332a2d756"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/feature_EN.wav",
+      "bytes": 96044,
+      "sha256": "6b617f67c0fdddef8dccf956cb5ad91327156c6eed0ddc72ae02621c46204d10"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/highway_CN.wav",
+      "bytes": 96044,
+      "sha256": "5e539bdb116c2742479e64a85a369243a4100f129de5a878c136a8b55acdb3b2"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/middle_CN.wav",
+      "bytes": 96044,
+      "sha256": "4bc48c9366c66972aa1ff96ed2201e6fc86e6606909e9788346ffb9258c9ed7f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/moonlight_CN.wav",
+      "bytes": 96044,
+      "sha256": "09a6086556fdff0ca7e23b3a7c251f04633bef2af64b19f6db36f00bee65637d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/morning_CN.wav",
+      "bytes": 96044,
+      "sha256": "8c73ef0047445bc81dddba4ee15c7f46121d75201e7b4326587c4efebb10bec7"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/morning_EN.wav",
+      "bytes": 96044,
+      "sha256": "7bf2f409a540a048bdebfc784fe8c9462df25d502c45466755500fc76bca52f0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/mouth_CN.wav",
+      "bytes": 96044,
+      "sha256": "76d9aebaf5705dcf212f50ba06db55e7bca7ebb7c22bca6b519f084eb002a569"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/mouth_EN.wav",
+      "bytes": 96044,
+      "sha256": "4f47c6dd25010af851eb447253ad7b177bddb196bd7826102d4eadd7669b232b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/nose_CN.wav",
+      "bytes": 96044,
+      "sha256": "b99d2d88bdc688bf22f0a9fa3f69f2c677476b58e4a03c37135145e7fff8f82f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/nose_EN.wav",
+      "bytes": 96044,
+      "sha256": "4d145e544dfad9d7b2780cbe83c8802b67b721e5392470bdd5969fb4fe83afbb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/order_CN.wav",
+      "bytes": 96044,
+      "sha256": "745f0d5e6c15843e7035c781cf61bb207e99c6db79226c09ec5bd89ca8de6dd8"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/order_EN.wav",
+      "bytes": 96044,
+      "sha256": "301533cd6343893fc813dc93a6bb55acd871af1a069250bdd4e8418c50cc7201"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/park_CN.wav",
+      "bytes": 96044,
+      "sha256": "25f37d733766ba6298fa247e94bb56bc4974770e0180ef173165fdae88cc6d39"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/park_EN.wav",
+      "bytes": 96044,
+      "sha256": "ea783b57af9b2d3c8e5b492e09641d61bcefe02c9ab77cf403eb82ce9d83e565"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/road_CN.wav",
+      "bytes": 96044,
+      "sha256": "5ffb5eb553e98675afb4e325d48dd9b8b4833282df839da8f7631578eaa30a26"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/road_EN.wav",
+      "bytes": 96044,
+      "sha256": "50d9b0c72d9c5b490f0ad97afb30bc7ec665eb7706307709f3bab28b56ba6660"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/school_CN.wav",
+      "bytes": 96044,
+      "sha256": "cdaa51391391c6ac70168da92f8fa1626d79667f1314bf4d7d1e5df2a6f5bfd0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/school_EN.wav",
+      "bytes": 96044,
+      "sha256": "952ed6d7da1b308a029e03b26efc4b764a038b4d1a31d8edc5a1ad036341a185"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/teacher_CN.wav",
+      "bytes": 96044,
+      "sha256": "fe26663e24b6aba50e0dc05bcc85d46503b8035fb04e5d42cbb58af0248f164d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/teacher_EN.wav",
+      "bytes": 96044,
+      "sha256": "d0e25c160d23bc1a449201f881953b6362b66920bab9940b275001d7e61d4ea3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/time_CN.wav",
+      "bytes": 96044,
+      "sha256": "468fb8b0d1797c3cdfb968dba500d65ca50cd4617673fb40d63da476ec79b4da"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/time_EN.wav",
+      "bytes": 96044,
+      "sha256": "c19520f74c8f52237ba175427dea54e88536bdc88ce540d39752eefed1d5999f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/today_CN.wav",
+      "bytes": 96044,
+      "sha256": "b7055d203d9a07d73dd18f2734344528505a8e865adac6627afd3ede6ec1265c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/today_EN.wav",
+      "bytes": 96044,
+      "sha256": "2e9061bb9adb180afaf5a9bc628ba9f462a169305d67363b15af90cea35bceeb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/tonight_CN.wav",
+      "bytes": 96044,
+      "sha256": "ef94f1407b85e109488e84b8fb92a1e8cef60ad917b774b8ed3e4a30bfcf500b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/window_CN.wav",
+      "bytes": 96044,
+      "sha256": "1d4afd488781ab8bb3a665cca4967ee9fd706dfd28961c5a4f84a256bfce23d6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/window_EN.wav",
+      "bytes": 96044,
+      "sha256": "b49d19520a78c16cb0c0a63843de4305751c0103eacdb388023feba072450be4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/wish_CN.wav",
+      "bytes": 96044,
+      "sha256": "a58cb7d4be45e240086df3a06cc800fdc22e66aa61b8cf2af7217b4d1ca09c77"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/audio/sub5_listen_audio/wish_EN.wav",
+      "bytes": 96044,
+      "sha256": "c99d12ca4a07a096c87d0d12f5eec4d429aa90490c44ef8470186035c718cbf0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/0_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "a64e40915b81e1bf6941fd6f6bb9f283d006aeb8aa7a980e5e9dd3146a2a48d3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/1_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "7d104d53f5882885b103b878b5dd05dfd66253fe684d67d0572015333db8b6de"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/2_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "3085fa419428aea67e173eb1841f39db33abb0e4fcd00ba92d82670992522f38"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/3_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "71261b969ca11394247df5f7cebcbdd358f4503416cff873a9d4b99e95b42401"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/4_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "8c2d6619bd70bb097111068cd6a747d603ed09549404803eb5a4ddbc18cfdb5b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/5_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "631f1910ca2ae2c2cfc6616504a50282153b8cb9051b971b02f31b812f2f3ef6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/6_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "d90d6623c936d6c193dfa23950a9be39a1c967c7293bf1a9648be394b69b0c02"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/7_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "6c3cc4fda41f1b2884c8fc76efeb25942c1c95cda9dc508667c6189ae4c69d17"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/8_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "0252742ee26940c39cfcfbd9ee3f027939022f4e00e3053b2a8e4ad3ff16b1e9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/9_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "b2d53f7449e0cb98b6492796a4fac7680decd707dfd632d72cfce95ad6f7db24"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/China_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "00dc13e915f4b2fe0a1f3cd263d70ce424c8b7eb37ca66a1875288133965d5e3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/China_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "c296bc8b95c28a8458b0232f136c529fd5e868009293ae64f5a5818723e2d578"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/Chinese_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "89622153fbd5ad5c2dd6b5b476b741a634056e41edf5aea98db838d067a01e81"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/PE_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "3254b70108c26fa7df9cc5c7c58c7cf86471550b659408f08da788b7d7772d14"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/TV_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8c6255c0bcfbcd572026cafb811b6cc8ee3dcfc13a712a5e07934a54eaded136"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/afternoon_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2783affff9eff41f61e5c7442bba9c78a744816316c5069fb2c41a18afdd53b4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/afternoon_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "cfd6093bb8cd8f7fe2792954e9c1aae448e4e86c5213577f398c148943153f9e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/apple_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "06b7253c19ee6794b46c4ab0c4032bafa3c29471282d63351a1476b12b0de49b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/apple_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "665b07acb4fe272e3202281e511451d045046d3101cb766606f99138b7e202a0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/art_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "9532ce9b777f06088d4a89dd03285c0c775efa3a6a6168a35a119b10946f7842"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/book_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "de3740d6fda4d353f5a9e6131f7da99799f1e78fdddeeba691f2f3f3a482159a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/book_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "fdb95ef7a03f9c5256768afbe965f0b6e416282a977521916f9d97d16e76ac7c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/bread_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "520a9a586d137fae10c8147f24f6fe13ca151904db8231da5e5cf423dc4c2fc7"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/car_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "ec42fdbfc05ac7581b3aad0c8197d8ece33f17d43ecdf184a9d03f1331a0bfe5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/classmate_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "525fa15ba3ce739bbb471b2e73130736c263d38f7d328d8cd298255ed4a20b45"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/drink_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "86f04ea643e111d9ff689bab4200e4261b5dd505b8bb43d61a0ce0ac027fc5d6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/ear_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5ef8b01fcd5f0cf686cc78ecdbb83e1d4ca93a2942c7a0de9ee6ab078d710567"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/ear_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "914f68ead7fccdae190206bdd5edc7f481735f3c6f6f9fd283699b50fbbb5315"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/eat_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "e035b84971354e945686fa9c8dcd2f96ebcaa65318d73b57556108a148d7b47d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/evening_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "05b8fcf921dc88527c4ba7ec444fb9e64a3e85a9ccaac439d5adfb103c6f3ab3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/evening_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "7ea4549a6884cf03bb43918ff98207c4d687a6e9a1af82ace3f336b6b1b63577"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/father_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "24c851ad2ceab1dc5f9e1d7fcb8ffaae59360a39cf96eec6ef9d490c3db342c7"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/fruit_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73b7f8a9a85c9e99f8b026bdac32fc7f12fbd9ea592afc66b3441cc6c709e2b5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/morning_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "c50f8dda025f89ba2b2c51a72e7d560b02a39487619717021f94580adb9f1623"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/morning_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a62f794155c5830ad3af630abb222165bb35175500c2150ff80dc95e31422180"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/mother_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "b0d36de286e0c2ea5a49a1e27ead1a17ddaf691487fadc392fbc79919132575d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/mouth_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "04c8485f7d348ebe002b9cd28d126f4e8d59ab73f5ffa6ba2e35f1b3f93d4bb6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/mouth_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "0b3ea4aeb9b13d3403f3413ab3ec9c87f260210b9a149810cd464ae14099d1e5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/music_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "50df3d93012160772b882839530ac3157db359ce5824193643ce0e072777132e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/nose_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d8bf70303c0798776bb1625e719b9e1193a2d4fa7f61286323ed1a0ef7b7ca13"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/nose_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "25cc7af56b4a2945a1c7c11a7003cf7692af0585771fed3174f4fcff2ed6edfe"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/park_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f1ae5708af52172e9b5ede1c6a4acbdfc402655b66e5b7e7979e5da1da9e9392"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/park_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "093c884384e664e58b67c834e5496b23791e640cd1b7362df2447e7eafb8f75d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/phone_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d6f4fb63443b35245f8bfb642daa5dc67d0a93777eba263ad763db599a14e861"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/rice_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "dc964abc17c715af65eacc66a0ccc6a524cfe639adb90bf3be2503c1a50609b9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/run_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "99bebff9b983355d40f8689728fd2724bf20b576d432ca31998e98f3d052510a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/sleep_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "634357c12995a1c3f16cf0017cfbbadc9f4aa37cd676151e64be6c934afb47b8"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/subway_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a257b952b0429c3f8ae658479a68e1a7d4a021f03c81b61d011e8a6692b73b46"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/teacher_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "74034ee0ac3e940d8fa0be721f385ca15d8678cc6e1e8cabd061797150a1c9a9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub1_listen_mel_100/vegetable_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "45ed3106e88c952ca7571dcad1bbae6f73f8a93457cbb96395dee1f53c2e0357"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/0_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "a64e40915b81e1bf6941fd6f6bb9f283d006aeb8aa7a980e5e9dd3146a2a48d3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/1_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "7d104d53f5882885b103b878b5dd05dfd66253fe684d67d0572015333db8b6de"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/2_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "3085fa419428aea67e173eb1841f39db33abb0e4fcd00ba92d82670992522f38"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/3_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "71261b969ca11394247df5f7cebcbdd358f4503416cff873a9d4b99e95b42401"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/4_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "8c2d6619bd70bb097111068cd6a747d603ed09549404803eb5a4ddbc18cfdb5b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/5_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "631f1910ca2ae2c2cfc6616504a50282153b8cb9051b971b02f31b812f2f3ef6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/6_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "d90d6623c936d6c193dfa23950a9be39a1c967c7293bf1a9648be394b69b0c02"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/7_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "6c3cc4fda41f1b2884c8fc76efeb25942c1c95cda9dc508667c6189ae4c69d17"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/8_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "0252742ee26940c39cfcfbd9ee3f027939022f4e00e3053b2a8e4ad3ff16b1e9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/9_DIGIT_mel.npy",
+      "bytes": 32128,
+      "sha256": "b2d53f7449e0cb98b6492796a4fac7680decd707dfd632d72cfce95ad6f7db24"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/China_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "00dc13e915f4b2fe0a1f3cd263d70ce424c8b7eb37ca66a1875288133965d5e3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/China_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "c296bc8b95c28a8458b0232f136c529fd5e868009293ae64f5a5818723e2d578"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/Chinese_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "89622153fbd5ad5c2dd6b5b476b741a634056e41edf5aea98db838d067a01e81"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/PE_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "3254b70108c26fa7df9cc5c7c58c7cf86471550b659408f08da788b7d7772d14"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/TV_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8c6255c0bcfbcd572026cafb811b6cc8ee3dcfc13a712a5e07934a54eaded136"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/afternoon_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2783affff9eff41f61e5c7442bba9c78a744816316c5069fb2c41a18afdd53b4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/afternoon_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "cfd6093bb8cd8f7fe2792954e9c1aae448e4e86c5213577f398c148943153f9e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/apple_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "06b7253c19ee6794b46c4ab0c4032bafa3c29471282d63351a1476b12b0de49b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/apple_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "665b07acb4fe272e3202281e511451d045046d3101cb766606f99138b7e202a0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/art_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "9532ce9b777f06088d4a89dd03285c0c775efa3a6a6168a35a119b10946f7842"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/book_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "de3740d6fda4d353f5a9e6131f7da99799f1e78fdddeeba691f2f3f3a482159a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/book_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "fdb95ef7a03f9c5256768afbe965f0b6e416282a977521916f9d97d16e76ac7c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/bread_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "520a9a586d137fae10c8147f24f6fe13ca151904db8231da5e5cf423dc4c2fc7"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/car_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "ec42fdbfc05ac7581b3aad0c8197d8ece33f17d43ecdf184a9d03f1331a0bfe5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/classmate_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "525fa15ba3ce739bbb471b2e73130736c263d38f7d328d8cd298255ed4a20b45"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/drink_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "86f04ea643e111d9ff689bab4200e4261b5dd505b8bb43d61a0ce0ac027fc5d6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/ear_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5ef8b01fcd5f0cf686cc78ecdbb83e1d4ca93a2942c7a0de9ee6ab078d710567"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/ear_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "914f68ead7fccdae190206bdd5edc7f481735f3c6f6f9fd283699b50fbbb5315"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/eat_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "e035b84971354e945686fa9c8dcd2f96ebcaa65318d73b57556108a148d7b47d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/evening_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "05b8fcf921dc88527c4ba7ec444fb9e64a3e85a9ccaac439d5adfb103c6f3ab3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/evening_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "7ea4549a6884cf03bb43918ff98207c4d687a6e9a1af82ace3f336b6b1b63577"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/father_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "24c851ad2ceab1dc5f9e1d7fcb8ffaae59360a39cf96eec6ef9d490c3db342c7"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/fruit_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73b7f8a9a85c9e99f8b026bdac32fc7f12fbd9ea592afc66b3441cc6c709e2b5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/morning_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "c50f8dda025f89ba2b2c51a72e7d560b02a39487619717021f94580adb9f1623"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/morning_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a62f794155c5830ad3af630abb222165bb35175500c2150ff80dc95e31422180"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/mother_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "b0d36de286e0c2ea5a49a1e27ead1a17ddaf691487fadc392fbc79919132575d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/mouth_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "04c8485f7d348ebe002b9cd28d126f4e8d59ab73f5ffa6ba2e35f1b3f93d4bb6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/mouth_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "0b3ea4aeb9b13d3403f3413ab3ec9c87f260210b9a149810cd464ae14099d1e5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/music_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "50df3d93012160772b882839530ac3157db359ce5824193643ce0e072777132e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/nose_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d8bf70303c0798776bb1625e719b9e1193a2d4fa7f61286323ed1a0ef7b7ca13"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/nose_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "25cc7af56b4a2945a1c7c11a7003cf7692af0585771fed3174f4fcff2ed6edfe"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/park_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f1ae5708af52172e9b5ede1c6a4acbdfc402655b66e5b7e7979e5da1da9e9392"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/park_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "093c884384e664e58b67c834e5496b23791e640cd1b7362df2447e7eafb8f75d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/phone_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d6f4fb63443b35245f8bfb642daa5dc67d0a93777eba263ad763db599a14e861"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/rice_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "dc964abc17c715af65eacc66a0ccc6a524cfe639adb90bf3be2503c1a50609b9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/run_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "99bebff9b983355d40f8689728fd2724bf20b576d432ca31998e98f3d052510a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/sleep_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "634357c12995a1c3f16cf0017cfbbadc9f4aa37cd676151e64be6c934afb47b8"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/subway_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a257b952b0429c3f8ae658479a68e1a7d4a021f03c81b61d011e8a6692b73b46"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/teacher_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "74034ee0ac3e940d8fa0be721f385ca15d8678cc6e1e8cabd061797150a1c9a9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub2_listen_mel_100/vegetable_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "45ed3106e88c952ca7571dcad1bbae6f73f8a93457cbb96395dee1f53c2e0357"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/China_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "db7a0245a15f0e820afccfb7a985dc73b19b13ea82c418d9445c6915a5e8da7e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/China_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "e5419f4aef79b462db03a1913d95b2ce29da325bc8fe8e80f11f54c5cabe3d57"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/March_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "03ecad86decd680b3a0f158c46c246107e68fad1ad190d995b338749b62a633d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/March_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "9317644da885657ab89d1b6898b50bfd9de443cbb3421958cf491d1b2a8ba59a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/afternoon_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "69c9a037f5f6254b55cab51b735398a6eb55b39e5820f147d10b1bba5e128278"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/afternoon_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "47d2317ef6753db830142bb8da416c3485e6fbe2d1f63268c5489c37de788ed6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/apple_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8f54a6e87a82992a5793ad6a97aea61df8e12928222acded16f335e1818e0abd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/apple_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8c71655381897a167c859d15b22fe470a6a51235d5b8790eafa6d7c05e8f2a8a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/book_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "bf73e430ae9a349d0f03a2cc14888b1b8b1fbea095c859c1a5a4a34b3260b727"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/book_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "981a40e3ee31734bc2caf4f50a0d95ae6f4c5eb17c0da1c4c5e6d25f47ac4e37"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/campus_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "392b197708acca7df666c4ad492c2fa31769c21d3bdede0205204f2f3cada0f1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/ear_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "fadfef899bc9fe6b92efbf1f8c9736dfef70451dee47cba6b23388139b7c83bb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/ear_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "cdc0a85c94c38c370ec499d2f8f9c3452058fb4568f73c75226e83c4a3f7caf9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/evening_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f43fa8db9a1317c01f792233f85876883117e9b8fc0c22e440dec8177404a56a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/evening_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f155000cdcc2f0102174614e95ec4181b18da5b6b9d5c6bc392bedcded33619c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/feature_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73c6546eb4f543e3c55e35e5ec3c150d330bfea22ddefe713f35bf1c6a0cd476"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/feature_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73ad9db7f3c9e2dd0bcd54cf04eb49330c0ce91b0a01df3500e3d053c1172733"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/highway_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "dda68ec3b8162a0c6ec383a8c46866804c45604a431856c8cfc9f1b020df7d09"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/middle_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "bbc40a34680ac53099f65e301fb12490c4aae2f090342f0783154b5a08e55942"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/moonlight_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d1681513f0a4d9eed02a5d1bb465fcf5d2326b80d179f8ea37b9077573836675"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/morning_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5bdf35c0d972aeb7adfee93c292810127becbcdc634039a9fff2fd39d9f74c57"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/morning_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "eb4e8dded12ccc177ad288c77941318da149b7f222792591c505961f53209701"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/mouth_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8b85929b13ed1e36d2b870e73d8882da01ed1b0d105fe4207f5d1b95160b6eb4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/mouth_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a69d07746ac1f00e3324f3c76a5047c83b4ccb7c67d2613efc3897214f204f0e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/nose_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "63f32d37295631ef52d0b33661d3d6607f842c9bba50d234668a6d9fd7016905"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/nose_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2883a29bc1d226e8f2093f293621901ab6c2e2897ff87d727c5a4b35ca1f5528"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/order_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a546685626eaa16503e691bfcddaba47c084a666536e64b0326450af77b3cffe"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/order_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5cfd09ac6eaeb3a2fbae5bd1571e28b34441f707ab1ab6ac28b29231251064bb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/park_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "ece84acbd4d5863cee4085bea3ea53da33686e9f782f594d93c7a83f43d3d487"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/park_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "730eaf71c0c92703286617d74a8db7f4f4afb1af93b9a8c9c19383545476c249"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/road_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d1560e1a15db261c409d7df0acc353d10362b052b440d79184bbc8be7e6a876a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/road_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "4aae5557d9b9db6f651693e96567d6b74aa85adff27ff8dfe8abb53f14a8e65b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/school_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f298a1b82769a6f9cf7f55ea9bbc7477a22b7af03ed02f4ef1322c585b978937"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/school_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "272aaffaf348eb1995b033c2ec5dfd7b3330f2bebe552e7ac2871b76c487cdb3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/teacher_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f815e6b0bfef6a2a5d88c60114ffc76715777d0647fb3abdad7160fde7baa8b5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/teacher_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f12b6fa068d06e0ef67aa355a63317d48648f97f70de4a23a42f3308c3565a24"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/time_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "841a44fdca981914364b0978e04a363cbd4fb8df2de2a52c92712681df6acaaa"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/time_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "99abaa1b64004aa1a26601cf7d5dd47f2141ff1beb07703088b3ed6673b63228"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/today_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8e4d3289142fd81fcb37b09a2aac4696f6b02a5da57852798fa87d5c2e38fc9b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/today_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2a8bc7707542550d608ff8f38538c0d3657046561c249c5b80f0bd218dae6fcb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/tonight_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "13039c37f5a2c101cf00adaccc5c74e88316af74a55a3b4b94f9b714f6b2d18a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/window_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "48e06e1563d9b011376b8adb0a34f0fd17f6530e4c1879bf812f710b014102c1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/window_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "24d5948b9ee32438c458f43cdbdd4190be897475852959066a8783a5fae06702"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/wish_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "c52e990c5ce4a63219355511339f6a7cc715dc9d57c0e2838e8f8e86c276154b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub3_listen_mel_100/wish_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "82ef9a182cbd89644d4fc9b30c1d224d9692f04a772a0883d00cbcd0fd2f4632"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/China_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "db7a0245a15f0e820afccfb7a985dc73b19b13ea82c418d9445c6915a5e8da7e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/China_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "e5419f4aef79b462db03a1913d95b2ce29da325bc8fe8e80f11f54c5cabe3d57"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/March_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "03ecad86decd680b3a0f158c46c246107e68fad1ad190d995b338749b62a633d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/March_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "9317644da885657ab89d1b6898b50bfd9de443cbb3421958cf491d1b2a8ba59a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/afternoon_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "69c9a037f5f6254b55cab51b735398a6eb55b39e5820f147d10b1bba5e128278"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/afternoon_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "47d2317ef6753db830142bb8da416c3485e6fbe2d1f63268c5489c37de788ed6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/apple_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8f54a6e87a82992a5793ad6a97aea61df8e12928222acded16f335e1818e0abd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/apple_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8c71655381897a167c859d15b22fe470a6a51235d5b8790eafa6d7c05e8f2a8a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/book_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "bf73e430ae9a349d0f03a2cc14888b1b8b1fbea095c859c1a5a4a34b3260b727"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/book_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "981a40e3ee31734bc2caf4f50a0d95ae6f4c5eb17c0da1c4c5e6d25f47ac4e37"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/campus_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "392b197708acca7df666c4ad492c2fa31769c21d3bdede0205204f2f3cada0f1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/ear_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "fadfef899bc9fe6b92efbf1f8c9736dfef70451dee47cba6b23388139b7c83bb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/ear_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "cdc0a85c94c38c370ec499d2f8f9c3452058fb4568f73c75226e83c4a3f7caf9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/evening_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f43fa8db9a1317c01f792233f85876883117e9b8fc0c22e440dec8177404a56a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/evening_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f155000cdcc2f0102174614e95ec4181b18da5b6b9d5c6bc392bedcded33619c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/feature_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73c6546eb4f543e3c55e35e5ec3c150d330bfea22ddefe713f35bf1c6a0cd476"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/feature_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73ad9db7f3c9e2dd0bcd54cf04eb49330c0ce91b0a01df3500e3d053c1172733"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/highway_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "dda68ec3b8162a0c6ec383a8c46866804c45604a431856c8cfc9f1b020df7d09"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/middle_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "bbc40a34680ac53099f65e301fb12490c4aae2f090342f0783154b5a08e55942"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/moonlight_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d1681513f0a4d9eed02a5d1bb465fcf5d2326b80d179f8ea37b9077573836675"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/morning_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5bdf35c0d972aeb7adfee93c292810127becbcdc634039a9fff2fd39d9f74c57"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/morning_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "eb4e8dded12ccc177ad288c77941318da149b7f222792591c505961f53209701"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/mouth_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8b85929b13ed1e36d2b870e73d8882da01ed1b0d105fe4207f5d1b95160b6eb4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/mouth_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a69d07746ac1f00e3324f3c76a5047c83b4ccb7c67d2613efc3897214f204f0e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/nose_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "63f32d37295631ef52d0b33661d3d6607f842c9bba50d234668a6d9fd7016905"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/nose_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2883a29bc1d226e8f2093f293621901ab6c2e2897ff87d727c5a4b35ca1f5528"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/order_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a546685626eaa16503e691bfcddaba47c084a666536e64b0326450af77b3cffe"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/order_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5cfd09ac6eaeb3a2fbae5bd1571e28b34441f707ab1ab6ac28b29231251064bb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/park_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "ece84acbd4d5863cee4085bea3ea53da33686e9f782f594d93c7a83f43d3d487"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/park_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "730eaf71c0c92703286617d74a8db7f4f4afb1af93b9a8c9c19383545476c249"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/road_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d1560e1a15db261c409d7df0acc353d10362b052b440d79184bbc8be7e6a876a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/road_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "4aae5557d9b9db6f651693e96567d6b74aa85adff27ff8dfe8abb53f14a8e65b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/school_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f298a1b82769a6f9cf7f55ea9bbc7477a22b7af03ed02f4ef1322c585b978937"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/school_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "272aaffaf348eb1995b033c2ec5dfd7b3330f2bebe552e7ac2871b76c487cdb3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/teacher_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f815e6b0bfef6a2a5d88c60114ffc76715777d0647fb3abdad7160fde7baa8b5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/teacher_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f12b6fa068d06e0ef67aa355a63317d48648f97f70de4a23a42f3308c3565a24"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/time_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "841a44fdca981914364b0978e04a363cbd4fb8df2de2a52c92712681df6acaaa"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/time_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "99abaa1b64004aa1a26601cf7d5dd47f2141ff1beb07703088b3ed6673b63228"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/today_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8e4d3289142fd81fcb37b09a2aac4696f6b02a5da57852798fa87d5c2e38fc9b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/today_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2a8bc7707542550d608ff8f38538c0d3657046561c249c5b80f0bd218dae6fcb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/tonight_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "13039c37f5a2c101cf00adaccc5c74e88316af74a55a3b4b94f9b714f6b2d18a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/window_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "48e06e1563d9b011376b8adb0a34f0fd17f6530e4c1879bf812f710b014102c1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/window_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "24d5948b9ee32438c458f43cdbdd4190be897475852959066a8783a5fae06702"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/wish_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "c52e990c5ce4a63219355511339f6a7cc715dc9d57c0e2838e8f8e86c276154b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub4_listen_mel_100/wish_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "82ef9a182cbd89644d4fc9b30c1d224d9692f04a772a0883d00cbcd0fd2f4632"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/China_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "db7a0245a15f0e820afccfb7a985dc73b19b13ea82c418d9445c6915a5e8da7e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/China_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "e5419f4aef79b462db03a1913d95b2ce29da325bc8fe8e80f11f54c5cabe3d57"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/March_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "03ecad86decd680b3a0f158c46c246107e68fad1ad190d995b338749b62a633d"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/March_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "9317644da885657ab89d1b6898b50bfd9de443cbb3421958cf491d1b2a8ba59a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/afternoon_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "69c9a037f5f6254b55cab51b735398a6eb55b39e5820f147d10b1bba5e128278"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/afternoon_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "47d2317ef6753db830142bb8da416c3485e6fbe2d1f63268c5489c37de788ed6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/apple_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8f54a6e87a82992a5793ad6a97aea61df8e12928222acded16f335e1818e0abd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/apple_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8c71655381897a167c859d15b22fe470a6a51235d5b8790eafa6d7c05e8f2a8a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/book_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "bf73e430ae9a349d0f03a2cc14888b1b8b1fbea095c859c1a5a4a34b3260b727"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/book_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "981a40e3ee31734bc2caf4f50a0d95ae6f4c5eb17c0da1c4c5e6d25f47ac4e37"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/campus_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "392b197708acca7df666c4ad492c2fa31769c21d3bdede0205204f2f3cada0f1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/ear_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "fadfef899bc9fe6b92efbf1f8c9736dfef70451dee47cba6b23388139b7c83bb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/ear_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "cdc0a85c94c38c370ec499d2f8f9c3452058fb4568f73c75226e83c4a3f7caf9"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/evening_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f43fa8db9a1317c01f792233f85876883117e9b8fc0c22e440dec8177404a56a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/evening_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f155000cdcc2f0102174614e95ec4181b18da5b6b9d5c6bc392bedcded33619c"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/feature_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73c6546eb4f543e3c55e35e5ec3c150d330bfea22ddefe713f35bf1c6a0cd476"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/feature_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "73ad9db7f3c9e2dd0bcd54cf04eb49330c0ce91b0a01df3500e3d053c1172733"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/highway_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "dda68ec3b8162a0c6ec383a8c46866804c45604a431856c8cfc9f1b020df7d09"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/middle_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "bbc40a34680ac53099f65e301fb12490c4aae2f090342f0783154b5a08e55942"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/moonlight_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d1681513f0a4d9eed02a5d1bb465fcf5d2326b80d179f8ea37b9077573836675"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/morning_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5bdf35c0d972aeb7adfee93c292810127becbcdc634039a9fff2fd39d9f74c57"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/morning_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "eb4e8dded12ccc177ad288c77941318da149b7f222792591c505961f53209701"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/mouth_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8b85929b13ed1e36d2b870e73d8882da01ed1b0d105fe4207f5d1b95160b6eb4"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/mouth_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a69d07746ac1f00e3324f3c76a5047c83b4ccb7c67d2613efc3897214f204f0e"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/nose_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "63f32d37295631ef52d0b33661d3d6607f842c9bba50d234668a6d9fd7016905"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/nose_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2883a29bc1d226e8f2093f293621901ab6c2e2897ff87d727c5a4b35ca1f5528"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/order_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "a546685626eaa16503e691bfcddaba47c084a666536e64b0326450af77b3cffe"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/order_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "5cfd09ac6eaeb3a2fbae5bd1571e28b34441f707ab1ab6ac28b29231251064bb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/park_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "ece84acbd4d5863cee4085bea3ea53da33686e9f782f594d93c7a83f43d3d487"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/park_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "730eaf71c0c92703286617d74a8db7f4f4afb1af93b9a8c9c19383545476c249"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/road_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "d1560e1a15db261c409d7df0acc353d10362b052b440d79184bbc8be7e6a876a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/road_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "4aae5557d9b9db6f651693e96567d6b74aa85adff27ff8dfe8abb53f14a8e65b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/school_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f298a1b82769a6f9cf7f55ea9bbc7477a22b7af03ed02f4ef1322c585b978937"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/school_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "272aaffaf348eb1995b033c2ec5dfd7b3330f2bebe552e7ac2871b76c487cdb3"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/teacher_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f815e6b0bfef6a2a5d88c60114ffc76715777d0647fb3abdad7160fde7baa8b5"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/teacher_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "f12b6fa068d06e0ef67aa355a63317d48648f97f70de4a23a42f3308c3565a24"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/time_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "841a44fdca981914364b0978e04a363cbd4fb8df2de2a52c92712681df6acaaa"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/time_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "99abaa1b64004aa1a26601cf7d5dd47f2141ff1beb07703088b3ed6673b63228"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/today_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "8e4d3289142fd81fcb37b09a2aac4696f6b02a5da57852798fa87d5c2e38fc9b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/today_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "2a8bc7707542550d608ff8f38538c0d3657046561c249c5b80f0bd218dae6fcb"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/tonight_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "13039c37f5a2c101cf00adaccc5c74e88316af74a55a3b4b94f9b714f6b2d18a"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/window_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "48e06e1563d9b011376b8adb0a34f0fd17f6530e4c1879bf812f710b014102c1"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/window_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "24d5948b9ee32438c458f43cdbdd4190be897475852959066a8783a5fae06702"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/wish_CN_mel.npy",
+      "bytes": 32128,
+      "sha256": "c52e990c5ce4a63219355511339f6a7cc715dc9d57c0e2838e8f8e86c276154b"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/c-listening/bids/stimuli/mel/sub5_listen_mel_100/wish_EN_mel.npy",
+      "bytes": 32128,
+      "sha256": "82ef9a182cbd89644d4fc9b30c1d224d9692f04a772a0883d00cbcd0fd2f4632"
+    }
+  ]
+}

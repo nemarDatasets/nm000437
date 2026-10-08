@@ -1,0 +1,25 @@
+{
+  "trial_type": {
+    "Description": "Stimulus language / category from the release file name",
+    "Levels": {
+      "CN": "Mandarin Chinese word",
+      "EN": "English word",
+      "DIGIT": "Mandarin Chinese digit"
+    }
+  },
+  "word": {
+    "Description": "Stimulus word from the release file name; the audio and mel-spectrogram are stimuli/audio/sub<N>_listen_audio/<word>_<language>.wav and stimuli/mel/"
+  },
+  "language": {
+    "Description": "Same as trial_type (CN / EN / DIGIT)"
+  },
+  "source_index": {
+    "Description": "Trial index in the release file name (1-based)"
+  },
+  "source_file": {
+    "Description": "Release .npy file name of this trial"
+  },
+  "sample": {
+    "Description": "First sample of the epoch in the BrainVision file (0-based)"
+  }
+}

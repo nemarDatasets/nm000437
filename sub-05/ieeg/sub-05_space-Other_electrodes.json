@@ -1,0 +1,6 @@
+{
+  "group": {
+    "Description": "Electrode (grid/strip/shaft) name: channel name without its trailing contact number"
+  },
+  "SpatialReference": "n/a: no electrode coordinates or reference image in the source release"
+}

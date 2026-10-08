@@ -1,0 +1,57 @@
+{
+  "source": "batch3/enrich/c-listening (enrichment lane b3-enrich-loc, 2026-10-08)",
+  "status": {
+    "id": "c-listening",
+    "brain_area_status_before": "unavailable",
+    "brain_area_status": "to discover",
+    "reason": "contact positions were computed by the authors (LeGUI/SPM12, pre-implant MRI co-registered to post-implant CT) and shown only as 3D renders for subjects 1-3 (NeurIPS 2025 paper Fig. 3, shaft letters + contact counts, no region names); the deposit has no electrode names or coordinates (Nihon Kohden .EEG files without the .21E/.PNT/.LOG sidecars; bipolar .npy arrays without channel labels)",
+    "localisation_kind": "none",
+    "regions": null,
+    "regions_stated": [],
+    "regions_stated_source": "paper only says trajectories 'span various cortical and subcortical regions' (Fig. 3 caption); no region named",
+    "fields": {
+      "subjects": {
+        "value": 5,
+        "source": "Zenodo record; paper Sec 3.1"
+      },
+      "sfreq": {
+        "value": 1000,
+        "source": "paper Sec 3.3 (Nihon Kohden EEG 1200, 1000 Hz); mne read_raw_nihon on Sub1_Sample_Original.EEG reports 1000 Hz; derivative npy at 200 Hz (paper Sec 4.2)"
+      },
+      "channels": {
+        "value": "118-186 contacts per subject (bipolar derivatives 73-148)",
+        "source": "paper Sec 3.2; deposit npy shapes"
+      },
+      "year": {
+        "value": 2025,
+        "source": "NeurIPS 2025"
+      },
+      "country": {
+        "value": "China",
+        "source": "paper affiliations (CUHK-Shenzhen, HIT Shenzhen); recording site not named"
+      },
+      "recordings": {
+        "value": "> 10 h neural-speech pairs",
+        "source": "paper Sec 3.4"
+      }
+    },
+    "pending_push": false
+  },
+  "dataset_description_items_added": {
+    "ReferencesAndLinks": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/bbc6396ae4b4dbf78ce328aa8beafd27-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "EthicsApprovals": [
+      "Collected under the approval of the institutional Ethics Review Board (ERB) at the affiliated medical center (name and number not published; NeurIPS checklist item 9)"
+    ]
+  },
+  "participants_columns_added": [
+    "diagnosis",
+    "implant_type",
+    "n_contacts",
+    "shafts_contacts_fig3",
+    "n_channels_excluded_epileptiform",
+    "n_bipolar_channels_in_npy"
+  ],
+  "readme_section_added": "Additional details from the paper"
+}

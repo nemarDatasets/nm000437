@@ -1,0 +1,61 @@
+{
+  "Name": "NeuroListen (Listening to the Brain): sEEG auditory-reconstruction features from 5 participants, authors' per-trial HGA/LFS/BBS arrays",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Xueyi Zhang",
+    "Ruicong Wang",
+    "Jialu Sun",
+    "Siqi Cai",
+    "Haizhou Li"
+  ],
+  "Acknowledgements": "Data release: Zenodo record 17426506 'Listening to the Brain: Multi-Band sEEG Auditory Reconstruction via Dynamic Spatio-Temporal Hypergraphs'. BIDS packaging: ieeg-nemar-20261005 campaign (batch-3, lane W2); the converter applies no signal processing.",
+  "HowToAcknowledge": "Please cite Zhang X, Wang R, Sun J, Cai S, Li H (2025). Listening to the Brain: Multi-Band sEEG Auditory Reconstruction via Dynamic Spatio-Temporal Hypergraphs. Advances in Neural Information Processing Systems 38 (NeurIPS 2025 Datasets and Benchmarks Track). doi:10.52202/085713-4302, and the data record doi:10.5281/zenodo.17426506.",
+  "Funding": [
+    "Shenzhen Science and Technology Program (Shenzhen Key Laboratory, ZDSYS20230626091302006)",
+    "Shenzhen Science and Technology Research Fund (Fundamental Research Key Project, JCYJ20220818103001002)",
+    "Program for Guangdong Introducing Innovative and Entrepreneurial Teams (2023ZT10X044)"
+  ],
+  "EthicsApprovals": [
+    "Conducted in accordance with the Declaration of Helsinki; all patients gave written informed consent (Zhang et al. 2025).",
+    "Collected under the approval of the institutional Ethics Review Board (ERB) at the affiliated medical center (name and number not published; NeurIPS checklist item 9)"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.52202/085713-4302",
+    "https://openreview.net/forum?id=koxXKW4FbR",
+    "https://doi.org/10.5281/zenodo.17426506",
+    "https://github.com/NeuroListen/NeuroListen",
+    "https://proceedings.neurips.cc/paper_files/paper/2025/hash/bbc6396ae4b4dbf78ce328aa8beafd27-Abstract-Datasets_and_Benchmarks_Track.html"
+  ],
+  "DatasetDOI": "doi:10.5281/zenodo.17426506",
+  "Keywords": [
+    "stereo-EEG",
+    "SEEG",
+    "speech perception",
+    "auditory reconstruction",
+    "high-gamma",
+    "Mandarin Chinese",
+    "English",
+    "neural decoding"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "NeuroListen preprocessing (Zhang et al. 2025)",
+      "Description": "Removal of contacts with epileptiform activity; bipolar re-referencing; HGA (70-150 Hz analytic amplitude) and LFS (low-pass 100 Hz) at 200 Hz, normalised within each 2 s window; BBS combines both; per-trial 2 s arrays.",
+      "CodeURL": "https://github.com/NeuroListen/NeuroListen"
+    },
+    {
+      "Name": "b3fin_convert_c-listening_v2.py",
+      "Description": "Lossless re-packaging of the per-trial .npy arrays into epoched BrainVision (float32) with events.tsv; stimuli copied verbatim; no further processing.",
+      "CodeURL": "n/a"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.17426506",
+      "URL": "https://zenodo.org/records/17426506",
+      "Version": "Zenodo record 17426506 (published 2025-10-23)"
+    }
+  ]
+}
