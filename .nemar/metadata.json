@@ -1,0 +1,98 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Xueyi Zhang": {},
+    "Ruicong Wang": {},
+    "Jialu Sun": {},
+    "Siqi Cai": {},
+    "Haizhou Li": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.17426506",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.52202/085713-4302",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000437",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000437",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Shenzhen Science and Technology Program",
+      "award_number": "ZDSYS20230626091302006",
+      "award_title": "Shenzhen Key Laboratory"
+    },
+    {
+      "funder_name": "Shenzhen Science and Technology Research Fund",
+      "award_number": "JCYJ20220818103001002",
+      "award_title": "Fundamental Research Key Project"
+    },
+    {
+      "funder_name": "Program for Guangdong Introducing Innovative and Entrepreneurial Teams",
+      "award_number": "2023ZT10X044"
+    }
+  ],
+  "title": "NeuroListen (Listening to the Brain): sEEG auditory-reconstruction features from 5 participants, authors' per-trial HGA/LFS/BBS arrays",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "7.15 GB (34 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".npy",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".wav"
+  ],
+  "description": "Derivative stereo-EEG (sEEG) feature dataset from five epilepsy patients who passively listened to spoken Mandarin Chinese words, Mandarin digits and English words. It provides the authors' per-trial 2 s arrays of high-gamma activity, low-frequency signal and broadband features at 200 Hz after bipolar re-referencing and exclusion of contacts with epileptiform activity. Stimulus audio and mel-spectrograms are included to support auditory reconstruction and neural speech decoding.",
+  "methods_description": "sEEG was recorded with Sinovation SDE-10/12/16 depth electrodes (118-186 contacts per participant) on a Nihon Kohden EEG-1200 at 1000 Hz while participants passively listened to 2 s spoken words. Stimulus markers sent to a DC channel aligned stimuli with the recording. Contacts with epileptiform activity were removed and the rest bipolar re-referenced. High-gamma amplitude (70-150 Hz), low-pass (100 Hz) and broadband features were computed at 200 Hz and normalised within each 2 s window.",
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "speech perception"
+    },
+    {
+      "term": "auditory reconstruction"
+    },
+    {
+      "term": "high-gamma activity"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Mandarin Chinese"
+    }
+  ],
+  "source_hash": "bdd3747e146c35fcdcb3b11557fb0d66ed8ac7a57c2ecfa6caf5909889314a8c"
+}
