@@ -1,5 +1,5 @@
 {
-  "Name": "NeuroListen (Listening to the Brain): sEEG auditory-reconstruction features from 5 participants, authors' per-trial HGA/LFS/BBS arrays",
+  "Name": "Zhang-2025-listening-10.52202/085713-4302",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -58,5 +58,5 @@
       "Version": "Zenodo record 17426506 (published 2025-10-23)"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
