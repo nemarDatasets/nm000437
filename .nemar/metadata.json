@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Zhang-2025-listening-10.52202/085713-4302",
+  "title": "NeuroListen (Listening to the Brain): sEEG auditory-reconstruction features from 5 participants, authors' per-trial HGA/LFS/BBS arrays",
   "description": "Stereo-EEG feature arrays from five patients with epilepsy who passively listened to spoken Mandarin words, Mandarin digits and English words (2 s per stimulus). The derivative release provides per-trial high-gamma, low-frequency and broadband bipolar-referenced features at 200 Hz, repackaged in BrainVision format with the stimulus audio and mel-spectrograms. It supports research on neural decoding and auditory speech reconstruction from intracranial recordings.",
   "methods_description": "SEEG was recorded with Sinovation SDE-10/12/16 platinum-iridium shafts (118-186 contacts per participant) on a Nihon Kohden EEG-1200 at 1000 Hz. Stimuli were played from a speaker, with markers sent to a DC channel for alignment. Contacts with epileptiform activity were removed and the rest were bipolar re-referenced. High-gamma (70-150 Hz analytic amplitude), low-frequency (low-pass 100 Hz) and broadband features were computed at 200 Hz and normalised within each 2 s window.",
   "license": "CC-BY-4.0",
@@ -96,5 +96,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "de2c4a4f1f21f69917decad3bf637db2949b5f74e29dba3b16b80ca4ad9942f6"
+  "source_hash": "e83754a9ef12b648f806d756e2ec3fe4aec3ab62084c64e251e3b316d2740460"
 }
