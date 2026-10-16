@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "NeuroListen (Listening to the Brain): sEEG auditory-reconstruction features from 5 participants, authors' per-trial HGA/LFS/BBS arrays",
-  "description": "Derivative stereo-EEG (sEEG) dataset from five patients with epilepsy who passively listened to spoken Mandarin Chinese words, Mandarin digits and English words (2 s per word). It provides the authors' per-trial high-gamma activity, low-frequency signal and broadband feature arrays at 200 Hz, with bipolar re-referencing and removal of contacts showing epileptiform activity. The data support auditory/speech reconstruction and neural decoding research, and include stimulus audio and mel-spectrograms.",
-  "methods_description": "sEEG was recorded with Sinovation SDE-10/12/16 depth electrodes (0.8 mm diameter, 3.5 mm contact spacing; 118-186 contacts per participant) on a Nihon Kohden EEG-1200 at 1000 Hz. Stimulus markers sent to a DC channel aligned the audio with the recordings. Contacts with epileptiform activity were removed and the remaining contacts were bipolar re-referenced. High-gamma (70-150 Hz analytic amplitude), low-frequency (low-pass 100 Hz) and combined broadband features were computed at 200 Hz and normalised within each 2 s window.",
+  "title": "Zhang-2025-listening-10.52202/085713-4302",
+  "description": "Stereo-EEG feature arrays from five patients with epilepsy who passively listened to spoken Mandarin words, Mandarin digits and English words (2 s per stimulus). The derivative release provides per-trial high-gamma, low-frequency and broadband bipolar-referenced features at 200 Hz, repackaged in BrainVision format with the stimulus audio and mel-spectrograms. It supports research on neural decoding and auditory speech reconstruction from intracranial recordings.",
+  "methods_description": "SEEG was recorded with Sinovation SDE-10/12/16 platinum-iridium shafts (118-186 contacts per participant) on a Nihon Kohden EEG-1200 at 1000 Hz. Stimuli were played from a speaker, with markers sent to a DC channel for alignment. Contacts with epileptiform activity were removed and the rest were bipolar re-referenced. High-gamma (70-150 Hz analytic amplitude), low-frequency (low-pass 100 Hz) and broadband features were computed at 200 Hz and normalised within each 2 s window.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -30,12 +30,12 @@
       "term": "neural decoding"
     },
     {
+      "term": "Mandarin Chinese"
+    },
+    {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Mandarin Chinese"
     }
   ],
   "related_identifiers": [
@@ -96,5 +96,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "63439b07fb35f7e9d318966cd2ea22e19a81ee0bf7b08c956cebc7a3d2e64dc5"
+  "source_hash": "de2c4a4f1f21f69917decad3bf637db2949b5f74e29dba3b16b80ca4ad9942f6"
 }
