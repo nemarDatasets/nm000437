@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "NeuroListen (Listening to the Brain): sEEG auditory-reconstruction features from 5 participants, authors' per-trial HGA/LFS/BBS arrays",
-  "description": "Stereo-EEG feature arrays from five patients with epilepsy who passively listened to spoken Mandarin words, Mandarin digits and English words (2 s per stimulus). The derivative release provides per-trial high-gamma, low-frequency and broadband bipolar-referenced features at 200 Hz, repackaged in BrainVision format with the stimulus audio and mel-spectrograms. It supports research on neural decoding and auditory speech reconstruction from intracranial recordings.",
-  "methods_description": "SEEG was recorded with Sinovation SDE-10/12/16 platinum-iridium shafts (118-186 contacts per participant) on a Nihon Kohden EEG-1200 at 1000 Hz. Stimuli were played from a speaker, with markers sent to a DC channel for alignment. Contacts with epileptiform activity were removed and the rest were bipolar re-referenced. High-gamma (70-150 Hz analytic amplitude), low-frequency (low-pass 100 Hz) and broadband features were computed at 200 Hz and normalised within each 2 s window.",
+  "description": "This derivative dataset provides per-trial feature arrays from stereo-EEG recordings of five epilepsy patients passively listening to spoken Mandarin Chinese words, Mandarin digits and English words. Features include high-gamma activity, low-frequency signal and broadband representations at 200 Hz, normalised within 2 s windows after removal of epileptiform contacts and bipolar re-referencing. It supports research on neural decoding and auditory/speech reconstruction from intracranial signals.",
+  "methods_description": "Five patients with epilepsy (native Mandarin speakers, ages 25-40) listened passively to 2 s spoken words (44 Mandarin words, 10 digits, 20 English words). sEEG was recorded with Sinovation SDE-10/12/16 shafts on a Nihon Kohden EEG-1200 at 1000 Hz, with stimulus markers sent to a DC channel. Contacts with epileptiform activity were removed, signals were bipolar re-referenced, and HGA (70-150 Hz), LFS (low-pass 100 Hz) and broadband features were computed at 200 Hz and normalised per 2 s window.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -30,12 +30,12 @@
       "term": "neural decoding"
     },
     {
-      "term": "Mandarin Chinese"
-    },
-    {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Mandarin Chinese"
     }
   ],
   "related_identifiers": [
