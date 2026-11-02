@@ -23,6 +23,13 @@ They then computed three feature sets at 200 Hz:
 - `desc-bbs`: broadband, which combines LFS and HGA. Its channel count equals HGA plus LFS, and the provenance JSON
   records whether its values equal the stacked HGA and LFS arrays.
 
+Updated in version 1.0.3 by the depositors of this NEMAR copy (the published text above is kept unchanged; these items replace or extend it):
+
+- `desc-bbs`: broadband, which combines LFS and HGA. It is not a third signal: in all 5 participants its values are
+  exactly the HGA channels followed by the LFS channels of the same trials (`bbs_equals_hga_lfs_concat` = true for 01-05
+  in `sourcedata/b3w2_provenance_c-listening.json`). Use `desc-hga` and `desc-lfs`, and count the recordings once (see
+  "Duplicate content" below).
+
 All three are normalised within each 2 s window. Each trial is one 2 s array (400 samples × channels).
 
 ## Layout
@@ -68,3 +75,10 @@ Paper: Zhang X, Wang R, Sun J, Cai S, Li H. "Listening to the Brain: Multi-Band 
 ## License
 
 CC-BY-4.0
+
+## Duplicate content (version 1.0.3, Oct 2026)
+
+`desc-bbs` duplicates `desc-hga` and `desc-lfs`: each `desc-bbs` file holds the same trials with the HGA channels and
+then the LFS channels, value for value (checked for all 5 participants when the dataset was built). It is kept because
+the release ships it, but it adds no data: count recordings and hours from `desc-hga` and `desc-lfs` only, and do not
+treat `desc-bbs` as a separate broadband (raw) signal. The release's own label "broadband" refers to this stacking.
