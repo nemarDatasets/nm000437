@@ -20,6 +20,11 @@ contacts with epileptiform activity (61, 27, 46, 22 and 37 in participants 1-5) 
 They then computed three feature sets at 200 Hz:
 - `desc-hga`: high-gamma activity (70-150 Hz band-pass, analytic amplitude).
 - `desc-lfs`: low-frequency signal (low-pass 100 Hz).
+- `desc-bbs`: broadband, which combines LFS and HGA. Its channel count equals HGA plus LFS, and the provenance JSON
+  records whether its values equal the stacked HGA and LFS arrays.
+
+Updated in version 1.0.3 by the depositors of this NEMAR copy (the published text above is kept unchanged; these items replace or extend it):
+
 - `desc-bbs`: broadband, which combines LFS and HGA. It is not a third signal: in all 5 participants its values are
   exactly the HGA channels followed by the LFS channels of the same trials (`bbs_equals_hga_lfs_concat` = true for 01-05
   in `sourcedata/b3w2_provenance_c-listening.json`). Use `desc-hga` and `desc-lfs`, and count the recordings once (see
@@ -71,7 +76,7 @@ Paper: Zhang X, Wang R, Sun J, Cai S, Li H. "Listening to the Brain: Multi-Band 
 
 CC-BY-4.0
 
-## Duplicate content (fix-20261030, Oct 2026)
+## Duplicate content (version 1.0.3, Oct 2026)
 
 `desc-bbs` duplicates `desc-hga` and `desc-lfs`: each `desc-bbs` file holds the same trials with the HGA channels and
 then the LFS channels, value for value (checked for all 5 participants when the dataset was built). It is kept because
